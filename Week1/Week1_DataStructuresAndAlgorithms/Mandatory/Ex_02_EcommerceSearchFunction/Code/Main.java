@@ -13,11 +13,11 @@ public class Main {
 
         String searchTerm = "Mobile";
 
-        System.out.println("🔍 Linear Search:");
+        System.out.println(" Linear Search:");
         Product result1 = SearchEngine.linearSearch(products, searchTerm);
         System.out.println(result1 != null ? result1 : "Product not found");
 
-        System.out.println("\n🔍 Binary Search:");
+        System.out.println("\n Binary Search:");
         Product result2 = SearchEngine.binarySearch(products, searchTerm);
         System.out.println(result2 != null ? result2 : "Product not found");
     }
